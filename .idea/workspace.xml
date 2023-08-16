@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b2f2e0e-87e2-40a2-95d4-ca8a7a8e9b1a" name="Changes" comment="" />
+    <list default="true" id="4b2f2e0e-87e2-40a2-95d4-ca8a7a8e9b1a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/data/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/data/VendingMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/data/VendingMachineImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/data/VendingMachineImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/model/Snacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/model/Snacks.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +21,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": -1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
   <component name="ProjectId" id="2U3YRfGmOk3wtvSOEbQnbasYqnw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,7 +34,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

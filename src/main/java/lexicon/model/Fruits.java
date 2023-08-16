@@ -2,20 +2,18 @@ package lexicon.model;
 
 public class Fruits extends Product {
 
-    private boolean organic;
 
-    public Fruits(int id, double price, String productName, boolean organic) {
+    public Fruits(int id, int price, String productName) {
         super(id, price, productName);
-        this.organic = organic;
     }
 
     @Override
     public String examine() { // should provide all the info
-        return null;
+        return "All info";
     }
 
     @Override
     public String use() { // should provide summary of info for the customer
-        return null;
+        return "Product name: " + getProductName() + ", Price is: " + getPrice();
     }
 }

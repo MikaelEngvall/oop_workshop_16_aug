@@ -6,15 +6,15 @@ public abstract class Product {
     // Fields
     // ******
 
-    private int id;
-    private double price;
-    private String productName;
+    private final int id;
+    private final int price;
+    private final String productName;
 
     // **************
     // Constructor(s)
     // **************
 
-    public Product(int id, double price, String productName) {
+    public Product(int id, int price, String productName) {
         this.id = id;
         this.price = price;
         this.productName = productName;
@@ -36,7 +36,7 @@ public abstract class Product {
         return id;
     }
 
-    public double getPrice() {
+    public int getPrice() {
         return price;
     }
 

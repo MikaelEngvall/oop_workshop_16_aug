@@ -4,15 +4,15 @@ import lexicon.model.Product;
 
 public interface VendingMachine {
 
-    void addCurrency(double amount);
+    void addCurrency(int amount);
 
     int getBalance();
 
-    Product request(Product id);
+    Product request(int id);
 
     int endSession();
 
     String getDescription(Product id);
 
-    String[] getProducts();
+    Product[] getProducts();
 }
