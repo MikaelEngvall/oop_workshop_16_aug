@@ -84,7 +84,6 @@ public class VendingMachineImpl implements VendingMachine {
             if (products[i]!=null)
                 System.out.println(products[i].getId() + " " + products[i].getProductName());
         }
-
         return products;
     }
 }
