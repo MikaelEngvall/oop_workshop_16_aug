@@ -42,10 +42,10 @@ public class App {
 
         System.out.println("\nRequest #2");
         System.out.println(sjukhuset.getBalance());
-        String description = sjukhuset.getDescription(1);
-        sjukhuset.getProducts();
+        String description = sjukhuset.getDescription(1); //getDescription()
+        sjukhuset.getProducts(); // getProducts()
 
-//        Product product2 = sjukhuset.request(2);
+/*        Product product2 = sjukhuset.request(2);
 //        if (product2 == null) {
 //            System.out.println("Out of stock");
 //        } else if (sjukhuset.getBalance() < 0) {
@@ -71,6 +71,6 @@ public class App {
 //            System.out.println(product3.use());
 //            System.out.println(sjukhuset.getBalance());
 //            System.out.println("You just bought a " + product3.getProductName());
-//        }
+//        }*/
     }
 }
