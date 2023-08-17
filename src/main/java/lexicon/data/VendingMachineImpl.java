@@ -2,8 +2,6 @@ package lexicon.data;
 
 import lexicon.model.Product;
 
-import java.util.Arrays;
-
 public class VendingMachineImpl implements VendingMachine {
 
     // ******
@@ -66,6 +64,17 @@ public class VendingMachineImpl implements VendingMachine {
 
     @Override
     public String getDescription(Product id) {
+        return null;
+    }
+
+    @Override
+    public String getDescription(int id) {
+        for (Product product : products) {
+            if (id == product.getId()) {
+                System.out.println("Product #" + product.getId() + " is " + product.getProductName() + " and costs " + product.getPrice() + " kr a piece");
+//                System.out.println(product.getId());
+            }
+        }
         return null;
     }
 

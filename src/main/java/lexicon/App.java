@@ -42,33 +42,34 @@ public class App {
 
         System.out.println("\nRequest #2");
         System.out.println(sjukhuset.getBalance());
+        String description = sjukhuset.getDescription(1);
 
-        Product product2 = sjukhuset.request(2);
-        if (product2 == null) {
-            System.out.println("Out of stock");
-        } else if (sjukhuset.getBalance() < 0) {
-            System.out.println(sjukhuset.getBalance());
-            System.out.println(product2.getPrice());
-            System.out.println("Not enough money!");
-        } else {
-            System.out.println(product2.use());
-            System.out.println(sjukhuset.getBalance());
-            System.out.println("You just bought a " + product2.getProductName());
-        }
-        System.out.println("\nRequest #3");
-        System.out.println(sjukhuset.getBalance());
-
-        Product product3 = sjukhuset.request(3);
-        if (product3 == null) {
-            System.out.println("Out of stock");
-        } else if (sjukhuset.getBalance() < 0) {
-            System.out.println(sjukhuset.getBalance());
-            System.out.println(product3.getPrice());
-            System.out.println("Not enough money!");
-        } else {
-            System.out.println(product3.use());
-            System.out.println(sjukhuset.getBalance());
-            System.out.println("You just bought a " + product3.getProductName());
-        }
+//        Product product2 = sjukhuset.request(2);
+//        if (product2 == null) {
+//            System.out.println("Out of stock");
+//        } else if (sjukhuset.getBalance() < 0) {
+//            System.out.println(sjukhuset.getBalance());
+//            System.out.println(product2.getPrice());
+//            System.out.println("Not enough money!");
+//        } else {
+//            System.out.println(product2.use());
+//            System.out.println(sjukhuset.getBalance());
+//            System.out.println("You just bought a " + product2.getProductName());
+//        }
+//        System.out.println("\nRequest #3");
+//        System.out.println(sjukhuset.getBalance());
+//
+//        Product product3 = sjukhuset.request(3);
+//        if (product3 == null) {
+//            System.out.println("Out of stock");
+//        } else if (sjukhuset.getBalance() < 0) {
+//            System.out.println(sjukhuset.getBalance());
+//            System.out.println(product3.getPrice());
+//            System.out.println("Not enough money!");
+//        } else {
+//            System.out.println(product3.use());
+//            System.out.println(sjukhuset.getBalance());
+//            System.out.println("You just bought a " + product3.getProductName());
+//        }
     }
 }

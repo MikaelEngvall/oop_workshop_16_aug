@@ -14,5 +14,7 @@ public interface VendingMachine {
 
     String getDescription(Product id);
 
+    String getDescription(int id);
+
     Product[] getProducts();
 }
