@@ -43,6 +43,7 @@ public class App {
         System.out.println("\nRequest #2");
         System.out.println(sjukhuset.getBalance());
         String description = sjukhuset.getDescription(1);
+        sjukhuset.getProducts();
 
 //        Product product2 = sjukhuset.request(2);
 //        if (product2 == null) {

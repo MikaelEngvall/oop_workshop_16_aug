@@ -72,7 +72,6 @@ public class VendingMachineImpl implements VendingMachine {
         for (Product product : products) {
             if (id == product.getId()) {
                 System.out.println("Product #" + product.getId() + " is " + product.getProductName() + " and costs " + product.getPrice() + " kr a piece");
-//                System.out.println(product.getId());
             }
         }
         return null;
@@ -80,7 +79,12 @@ public class VendingMachineImpl implements VendingMachine {
 
     @Override
     public Product[] getProducts() {
+        for (int i = 0; i < products.length; i++) {
+            Product product = products[i];
+            if (product[i])!=null)
+                System.out.println(products);
+        }
+
         return products;
-//        return new String[0];
     }
 }
