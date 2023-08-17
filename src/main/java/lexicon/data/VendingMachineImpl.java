@@ -81,8 +81,8 @@ public class VendingMachineImpl implements VendingMachine {
     public Product[] getProducts() {
         for (int i = 0; i < products.length; i++) {
             Product product = products[i];
-            if (product[i])!=null)
-                System.out.println(products);
+            if (products[i]!=null)
+                System.out.println(products[i].getId() + " " + products[i].getProductName());
         }
 
         return products;
